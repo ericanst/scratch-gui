@@ -1,0 +1,242 @@
+/*页面总宽度*/
+#wrap{
+	width: 100%;
+	/* max-width: 1440px; */
+	min-width: 1280px;
+	 min-height: 1080px;
+	margin: 0 auto; 
+	
+	overflow: hidden;
+	position: relative;
+	background: url(../images/bg0_01.png)  top center  no-repeat;
+	background-size:100% 100%; 
+}
+
+/*主体内容宽度*/
+.inner{
+	 width: 1280px; 
+	/* width: auto; */
+	height: auto;	
+}
+
+
+/*头部区域*/
+ /* .header{
+	position: relative;
+}  */
+.top{
+ border-bottom:#fff 2px solid; 
+}
+.top .inner{
+	height: auto;	
+}
+.top .logo{
+	float: left;
+	margin-left:5%;
+}
+.top .nav1{
+	width: 60%;
+	float: right;
+	/* margin:2%; */
+	margin: 3% 0 3% 5%;
+}
+.top .nav1 li{
+	float: left;
+	padding:0 35px;
+	height: 20px;
+	
+}
+.top .nav1 .navb{
+	border-right:#fff 1px solid; 
+}
+
+.top .nav1 li a{
+	display: block;	
+	height: 30px;
+	line-height: 20px;
+	font-size: 18px;
+	font-weight: bolder;
+	color: #fff;
+	text-align: center;
+}
+.top .nav1 li a.on, .top .nav1 li a:hover{
+	border-bottom: #fff 3px solid;  
+	font-size: 22px;	
+	font-weight: bolder;
+}
+
+
+/*main*/
+.main{
+	margin: 0 auto;
+}
+
+/*title*/
+.title img{
+	display: block;
+	margin: 0 auto;
+	margin-top:8%;	 
+}
+
+/*contain*/
+.container{
+	width: 100%;
+}
+
+/*content*/
+.content{
+	width: 850px;
+	margin: 0 auto;
+}
+
+ .shang{
+	width: 70%;
+	display: block;
+	margin: 4% auto;
+}
+ .xia{
+	display: block;
+	margin: 0 auto;
+	margin-top:5%; 
+}
+/*介绍*/
+
+.content .wb{
+	width: 485px;
+	height: 400px;
+	font-size: 18px;
+	line-height: 38px;
+	padding: 0 2px;
+	text-align: justify;
+	color: #fff;
+	float: left;
+	background: url(../images/kuang_08.png) no-repeat; 
+}
+
+.content .ren{
+	float: right;
+	margin: 5% 0;
+}
+.content .wb .wz{
+	margin: 6% 8%;
+	text-indent: 2em;
+}
+.content .wb .wz_qd{
+	display: block;
+	font-weight: bold;
+}
+.content .wb p{
+	display: block;
+	width: 416px;
+	margin: 0 auto;
+}
+
+/*优势  */
+
+
+.content  .heng{
+	display: block;
+	width: 150px;
+	border-top:#fff 3px solid; 
+	margin: 3% auto;
+}
+
+.content .ysnr{
+	width: 800px;
+	font-size: 18px;
+	color: #fff;
+	text-indent: 2em;
+	line-height: 35px;
+}
+
+/* 安排 */
+.content .tab .tab_nav li{
+	color: #3c63f5;
+    font-size: 16px;
+    font-weight: bold; 
+    float: left; 
+    width: 90px;
+    height: 45px; 
+    line-height: 36px;  
+    text-align: left;
+    padding-left: 31px;
+	background: url(../images/city_bg_bai_08.png) no-repeat;
+	background-size:80% 80%; 
+	/* b2b7fc */
+}
+.content .tab .tab_nav li:hover,.content .tab .tab_nav li.active{
+	cursor: pointer; <!--指针形式-->
+	color: #fff;
+	background: url(../images/city_bg_08.png) no-repeat;
+	background-size:80% 80%; 
+}
+
+.tab_content {
+	margin: 0 auto;
+	/* border: 1px solid #000000; */
+}
+.tab_content li{
+	width: 820px;
+	background-color: #fff;
+	padding: 10px;
+	display: none;
+	border-radius: 12px;
+}
+.tab_content li.active{
+	display: block;
+}
+.tab_content .job{
+	display: block;
+	width: 800px;
+	height: 40px;
+	line-height: 40px;
+	color: #fff;
+	font-size: 18px;
+	margin: 0 auto;
+	background: url(../images/desc_bg_08.png) no-repeat;
+	background-size: 800px 40px;
+	margin-bottom:10px; 
+}
+.tab_content .job h1{
+	width: 95%;
+}
+.tab_content .jlist{
+	font-size: 16px;
+	color: #8076fd;
+	width: 700px;
+	height: auto;
+	margin: 0 auto;
+	border: 3px solid #b2b7fc;
+	border-top:none; 
+	border-radius: 10px;
+	padding: 30px 20px 0 20px;
+	margin-bottom:15px; 
+}
+.tab_content .jlist h1{
+	font-size: 18px;
+}
+.tab_content .jlist a{
+	width: 110px;
+	height: 40px;
+	margin-left:590px; 
+}
+.content  .lcnr img{
+	display: block;
+	margin:0 auto;
+	margin-top:5%; 
+}
+
+/*版权*/
+.copyright{ 
+	position: absolute;
+	bottom: 0;
+	width:100%; 
+	height:50px; 
+	line-height:50px;
+	text-align:center;
+	color:#fff; 
+	font-size:12px;
+}
+ .copyright img{
+	vertical-align: text-bottom;
+} 
